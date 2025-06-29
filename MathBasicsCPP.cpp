@@ -15,7 +15,7 @@ int main() {
       }
   }
   
-  //O(srt(n))
+  //O(sqrt(n))
   
   sort(divisors.begin(), divisors.end());
   
@@ -28,10 +28,5 @@ int main() {
   
   //O(no of divisors)
   
-  
-  
-  
-  
- 
   return 0;
 }
