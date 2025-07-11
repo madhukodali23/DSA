@@ -1,14 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
  
-void insertionSort(int n, int arr[]) 
+int insertionSort(int n, int arr[]) 
 {
-    #include <bits/stdc++.h>
-using namespace std;
-
-class solution {
-public:
-    int countSwaps(int arr[], int n){
         int count = 0;
         for(int i=1;i<=n-1;i++)
         {
@@ -23,8 +17,6 @@ public:
             }
         }
         return count;
-    }
-};
 }
  
 int main() {
